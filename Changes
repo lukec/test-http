@@ -1,0 +1,3 @@
+0.11 - Thu Jun 25 11:15:31 PDT 2009
+* Depend on the latest LWP which properly encodes and decodes
+  UTF8 content better.

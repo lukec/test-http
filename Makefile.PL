@@ -9,6 +9,7 @@ WriteMakefile(
         Test::Builder::Module => 0,
         Carp                  => 0,
         Class::Field          => 0,
+        LWP                   => '5.827',
         LWP::UserAgent        => 0,
         Test::More            => 0,
         Text::Balanced        => 0,
