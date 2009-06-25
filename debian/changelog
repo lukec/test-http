@@ -1,3 +1,33 @@
+libtest-http-perl (0.11-6) unstable; urgency=low
+
+  * new upstream version
+
+ --  <lukec@topaz.socialtext.net>  Thu, 25 Jun 2009 11:25:38 -0700
+
+libtest-http-perl (0.11-5) unstable; urgency=low
+
+  * new upstream version
+
+ --  <lukec@topaz.socialtext.net>  Thu, 25 Jun 2009 11:23:52 -0700
+
+libtest-http-perl (0.11-4) unstable; urgency=low
+
+  * new upstream version
+
+ --  <lukec@topaz.socialtext.net>  Thu, 25 Jun 2009 11:22:51 -0700
+
+libtest-http-perl (0.07-3) unstable; urgency=low
+
+  * new upstream version
+
+ --  <lukec@topaz.socialtext.net>  Thu, 25 Jun 2009 11:22:01 -0700
+
+libtest-http-perl (0.07-2) unstable; urgency=low
+
+  * new upstream version
+
+ --  <lukec@topaz.socialtext.net>  Thu, 25 Jun 2009 11:21:34 -0700
+
 libtest-http-perl (0.07-1) unstable; urgency=low
 
   * Initial Release.

@@ -346,7 +346,7 @@ Socialtext, Inc. C<< <code@socialtext.com> >>
 
 Copyright 2006 Socialtext, Inc., all rights reserved.
 
-SOME SUITABLE LICENSE TERMS GO HERE.
+Same terms as Perl.
 
 =cut
 
