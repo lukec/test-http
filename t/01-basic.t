@@ -19,8 +19,8 @@ use Test::HTTP tests => 4;
 
 {
     my $test = Test::HTTP->new('GET json');
-    $test->get( 'http://www.socialtext.net/data/workspaces/st-rest-docs',
+    $test->get( 'http://ajax.googleapis.com/ajax/services/search/news?v=1.0&q=barack%20obama',
         [ Accept => 'application/json' ] );
     $test->status_code_is(200);
-    $test->header_like('Content-type', qr{application/json});
+    $test->header_like('Content-type', qr{text/javascript; charset=utf-8});
 }
