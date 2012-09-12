@@ -17,10 +17,10 @@ Test::HTTP - Test HTTP interactions.
      my $type = 'text/x.waki-wiki';
      my $test = Test::HTTP->new('HTTP page creation and deletion');
 
-     $test->get($uri, {Accept => $type});
+     $test->get($uri, [Accept => $type]);
      $test->status_code_is(404, "Page not yet there.");
 
-     $test->put($uri, {'Content-type' => $type}, 'xyzzy');
+     $test->put($uri, ['Content-type' => $type], 'xyzzy');
      $test->status_code_is(201, "PUT returns 201."); # Created
      $test->header_is(
          'Content-type' => $type,
@@ -30,7 +30,7 @@ Test::HTTP - Test HTTP interactions.
          "Created page location makes sense.");
      $test->body_is('xyzzy');
 
-     $test->get($uri, {Accept => $type});
+     $test->get($uri, [Accept => $type]);
      $test->status_code_is(200, "Page is now there.");
      $test->header_is(
          'Content-type' => $type,
